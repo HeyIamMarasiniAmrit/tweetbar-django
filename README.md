@@ -27,3 +27,22 @@ Users can register, log in, create tweets with optional photos, edit or delete t
 ---
 
 ## Project Structure
+chaihq/
+├── chaihq/               # Project settings
+├── tweet/                # Main app
+│   ├── models.py         # Tweet model
+│   ├── views.py
+│   ├── forms.py
+│   ├── urls.py
+│   └── templates/
+├── templates/            # Base layout
+├── media/                # Uploaded photos
+└── manage.py
+
+## Installation & Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YOUR_USERNAME/tweetbar-django.git
+cd tweetbar-django
+
