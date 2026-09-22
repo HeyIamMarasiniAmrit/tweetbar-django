@@ -1,0 +1,29 @@
+# TweetBar 🐦
+
+A clean and simple Twitter-style microblogging application built with **Django 5**.
+
+Users can register, log in, create tweets with optional photos, edit or delete their own tweets, and view a feed of all posts.
+
+---
+
+## Features
+
+- User registration & authentication
+- Create, read, update & delete tweets
+- Photo upload support
+- Only the tweet owner can edit/delete their tweets
+- Responsive Bootstrap 5 UI
+- Media files handling
+
+---
+
+## Tech Stack
+
+- Django 5.2
+- SQLite (default)
+- Bootstrap 5
+- Pillow (for image handling)
+
+---
+
+## Project Structure
